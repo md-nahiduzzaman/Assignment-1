@@ -1,8 +1,63 @@
-h1 {
-  color: brown;
-  font-size: 80px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.banner-img {
-  width: 50px;
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Merriweather", serif;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 70%;
+  max-width: 1320;
+  margin: 0 auto;
+}
+
+footer {
+  background: #070211;
+  padding: 120px 0;
+}
+
+footer p,
+li {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+}
+
+hr {
+  border: 0.5px solid rgba(255, 255, 255, 0.15);
+}
+
+.address-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  /* margin-right: 300px; */
+}
+
+.icon-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 48px 0;
+}
+
+.icon-section img {
+  margin-left: 24px;
+}
+
+.reserve-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
 }
