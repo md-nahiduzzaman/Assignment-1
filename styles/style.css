@@ -8,6 +8,15 @@ body {
   font-family: "Merriweather", serif;
 }
 
+h2 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+}
+
 h3 {
   color: #070211;
   font-family: Merriweather;
@@ -38,6 +47,41 @@ li {
   width: 70%;
   max-width: 1320;
   margin: 0 auto;
+}
+
+/* Party Section */
+.party-section {
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Vectorrr.png");
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  height: 600px;
+}
+
+.party-section-element {
+  padding: 126px;
+}
+.party-section p {
+  margin: 24px 0 48px 0;
+  width: 697px;
+
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  line-height: 30px; /* 166.667% */
+}
+
+.party-section button {
+  color: #fff;
+  background-color: #070211;
+
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  padding: 16px 32px;
+  border: none;
+  border-radius: 32px;
 }
 
 /* Portfolio Section */
