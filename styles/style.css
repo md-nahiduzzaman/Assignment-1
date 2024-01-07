@@ -49,6 +49,36 @@ li {
   margin: 0 auto;
 }
 
+/* Offer Section */
+.offer-section {
+  text-align: center;
+  padding: 120px 0;
+}
+.offer-section h5 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+}
+
+.offer-section h4 {
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+
+.offer-section p {
+  color: #070211;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.offer-section img {
+  width: 802.9px;
+  height: 500px;
+  margin-top: 48px;
+}
+
 /* Party Section */
 .party-section {
   background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
