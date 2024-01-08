@@ -126,10 +126,23 @@ li {
   background-repeat: no-repeat;
   border-radius: 16px;
   height: 600px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.party-section-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 100px;
+  gap: 140px;
 }
 
 .party-section-element {
-  padding: 126px;
+  /* padding: 126px; */
 }
 .party-section p {
   margin: 24px 0 48px 0;
