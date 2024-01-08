@@ -65,6 +65,42 @@ li {
   margin: 0 auto;
 }
 
+.button-primary {
+  padding: 16px 32px;
+  border: none;
+  border-radius: 8px;
+  background: #f00;
+
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+
+  font-weight: 700;
+}
+
+.button-primary:hover {
+  background: rgb(175, 0, 0);
+}
+
+.button-secondary {
+  color: #fff;
+  background-color: #07021100;
+
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  padding: 16px 32px;
+  border: none;
+  border-radius: 32px;
+}
+
+.button-secondary:hover {
+  background-color: #f00;
+}
+
 /* Banner Section */
 .banner-section {
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
@@ -157,20 +193,6 @@ li {
   line-height: 30px; /* 166.667% */
 }
 
-.party-section button {
-  color: #fff;
-  background-color: #070211;
-
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 700;
-  text-transform: uppercase;
-
-  padding: 16px 32px;
-  border: none;
-  border-radius: 32px;
-}
-
 /* schedule */
 .schedule-section {
   background-image: linear-gradient(
@@ -194,18 +216,6 @@ li {
 }
 
 .schedule-section-element button {
-  padding: 16px 32px;
-  border: none;
-  border-radius: 8px;
-  background: #f00;
-
-  color: #fff;
-  text-align: center;
-  font-family: Inter;
-  font-size: 20px;
-
-  font-weight: 700;
-
   margin-top: 48px;
 }
 
@@ -331,11 +341,8 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 24px;
   margin: 48px 0;
-}
-
-.icon-section img {
-  margin-left: 24px;
 }
 
 .reserve-section {
@@ -343,4 +350,10 @@ hr {
   align-items: center;
   justify-content: space-between;
   margin-top: 50px;
+}
+
+.address-icon-section-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
